@@ -1,39 +1,23 @@
-<!--
-**SUPERustam/SUPERustam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 # Hi, I’m Rustam Uzdenov 👋
 
-- 🧠 Junior Researcher @ ISP RAS (Computer Vision)
-- 🎓 BMSTU '26 undergraduate (Applied Math/CS)
+- 🧠 Junior Computer Vision Researcher @ ISP RAS
+- 🎓 Bachelor's degree, BMSTU '26 (Applied Math/CS) - _GPA 4.32/5_
 - 🔬 Focus: Deep Learning, Computer Vision, AI
-- 🤝 Open to research collaborations & internships
+- 🤝 Open to research collaborations & AI projects
 
 ## 🛠️ Tech Stack
-Python | PyTorch | OpenCV | NumPy | Bash | Git
+- __Programming:__ Python, C++, SQL, Bash
+- __ML/DL:__ PyTorch, OpenCV, NumPy, Pandas, Matplotlib, Scikit-learn, Airflow/Prefect, Docker
+- __Collaborative Skills:__ Git & GitHub, Leadership, Research Collaboration, Code Review
+- __Languages:__ Russian (Native), English (Professional Working) 
 
 <!--
 ## 📌 Projects
-- [Project1](link) — short description
-- [Project2](link) — short description
+- 🍔 [Fast Food Memes]([link](https://github.com/ffmemes/ff-backend)) — Infinite Personalized meme feed
 -->
 
 ## 📫 Contact
-[Email](mailto:498rustam@gmail.com) • [LinkedIn @SUPERustam](https://www.linkedin.com/in/superustam) • [Telegram @SUPERustam](https://t.me/SUPERustam)
-<!-- 
-[Email](mailto:498rustam@gmail.com) • [LinkedIn](https://www.linkedin.com/in/superustam) • [CV](link)
--->
+[Email](mailto:498rustam@gmail.com) • [LinkedIn @SUPERustam](https://www.linkedin.com/in/superustam) • [Telegram @SUPERustam](https://t.me/SUPERustam) • [CV](CV_Researcher_Rustam_Uzdenov.pdf)
 
 ---
 
