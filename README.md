@@ -1,6 +1,6 @@
 # Hi, I’m Rustam Uzdenov 👋
 
-- 🧠 Junior Computer Vision Researcher at @ispras
+- 🧠 Junior Computer Vision Researcher at [@ispras](https://github.com/ispras)
 - 🎓 Bachelor's degree, BMSTU '26 (Applied Math/CS) - _GPA 4.32/5_
 - 🔬 Focus: Deep Learning, Computer Vision, AI
 - 🤝 Open to research collaborations & AI projects
