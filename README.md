@@ -9,7 +9,7 @@
 
 - __Junior Computer Vision Researcher__ @ [ISP RAS](https://www.ispras.ru/) _(Sep 2024 - Present)_
   - R&D in Computer Vision with a focus on **Video Copy Detection**.
-  - Published and [presented research](https://vkvideo.ru/video-214485707_456239046) on "Shazam Algorithm for Partial Video Copy Detection" at the [IVMEM2025 conference](https://www.ivannikov-ws.org).
+  - Published and [presented research](https://vkvideo.ru/video-214485707_456239046) on __"Shazam Algorithm for Partial Video Copy Detection"__ at the [IVMEM2025 conference](https://www.ivannikov-ws.org).
 
 - __Machine Learning Engineer__ @ [Fast Food Memes](https://github.com/ffmemes) _(Jan 2024 - Aug 2024)_
   - Developed an infinite personalized meme feed for an [open-source Telegram bot](https://t.me/ffmemesbot) ([repo](https://github.com/ffmemes/ff-backend)).
@@ -17,7 +17,7 @@
   - Built a deduplication and spam-detection system that flagged over 14k spam entries.
 
 - __MLOps Engineer__ @ [Bauman Racing Team](https://baumanracing.ru/) _(Nov 2022 - Oct 2023)_
-  - Created a CLI tool to manage Docker containers for a driverless car system.
+  - Created a CLI tool to manage Docker containers for a __driverless car system__.
   - Developed a C++ unit testing system and built CI/CD pipelines from scratch.
 
 ## 🛠️ Tech Stack
