@@ -34,7 +34,7 @@ Joint AIRI, MSU, Sber research project.
 
 ## 🛠️ Tech Stack
 - __Programming:__ Python, SQL, C++, Bash
-- __ML/DL:__ PyTorch, Transformers 🤗, PEFT, vLLM, OpenCV, NumPy, Pandas, Matplotlib, Scikit-learn, Open3D etc.
+- __ML/DL:__ PyTorch, Transformers 🤗, OpenCV, Open3D, PEFT, vLLM,  NumPy, Pandas, Matplotlib, Scikit-learn etc.
 - __Technologies:__ LoRA, Qwen, GraphRAG, RAG and more!
 - __Collaborative Skills:__ Git & GitHub, Docker, Airflow/Prefect, Leadership, Research Collaboration, Code Review
 - __Languages:__ English (Professional Working), Russian (Native)
