@@ -1,4 +1,4 @@
-# Hi, I’m Rustam Uzdenov 👋
+<!-- # Hi, I’m Rustam Uzdenov 👋
 
 - 🧠 Junior Computer Vision Researcher at [AIRI](https://airi.net) and [Moscow State University (MSU)](https://aicenter.msu.ru/)
 - 🎓 Bachelor's degree, BMSTU '26 (Applied Math/CS) - _GPA 4.35/5_
@@ -21,7 +21,7 @@ Joint AIRI, MSU, Sber research project.
 
 - __Junior Computer Vision Researcher__ @ [ISP RAS](https://www.ispras.ru/) _(Sep 2024 - Sep 2025)_
   - R&D in Computer Vision with a focus on **Video Copy Detection**.
-  - Published and [presented research](https://vkvideo.ru/video-214485707_456239046) on __"Shazam Algorithm for Partial Video Copy Detection"__ at the [IVMEM2025 conference](https://www.ivannikov-ws.org).
+  - Published and [presented research](https://vkvideo.ru/video-214485707_456239046) on __"Shazam Algorithm for Partial Video Copy Detection"__ at the [IVMEM2025 conference](https://www.ivannikov-ws.org). [Paper](https://ispranproceedings.elpub.ru/jour/article/view/2077), [Code](https://github.com/SUPERustam/frame_video_search)
 
 - __Machine Learning Engineer__ @ [Fast Food Memes](https://github.com/ffmemes) _(Jan 2024 - Aug 2024)_
   - Developed an infinite personalized meme feed for an [open-source Telegram bot](https://t.me/ffmemesbot) ([repo](https://github.com/ffmemes/ff-backend)).
@@ -59,4 +59,4 @@ Joint AIRI, MSU, Sber research project.
 
 ---
 
-*Always learning, always building.*
+*Always learning, always building.* -->
