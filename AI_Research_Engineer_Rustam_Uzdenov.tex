@@ -1,0 +1,169 @@
+\documentclass[a4paper,10pt]{article}
+
+% Packages
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+
+% Style
+\pagestyle{empty}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \textbf{#1} \hfill {#2} \\
+    \textit{#3} \hfill {#4}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{\textbf{#1}{: #2} \vspace{-4pt}}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}} \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\awardItem}[2]{
+  \item
+    \begin{tabular*}{\textwidth}{@{}p{0.78\textwidth}@{\extracolsep{\fill}}r@{}}
+      #1 & \textit{#2} \\
+    \end{tabular*}
+}
+
+% Document
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge Rustam Uzdenov} \\[1pt]
+  AI Research Engineer\\
+  {\small World Models, JEPA, Computer Vision, Robotics}\\
+  \faPhone~+7~(929)~612-28-16 ~|~
+  \faEnvelope~498rustam@gmail.com ~|~
+  \faPaperPlane~\href{https://t.me/SUPERustam}{@SUPERustam} ~|~
+  \faGithub~\href{https://github.com/SUPERustam}{SUPERustam}
+  \faLinkedin~\href{https://www.linkedin.com/in/superustam}{SUPERustam}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section*{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {AIRI \& Moscow State University (MSU)}{Sep 2025 -- May 2026}
+  {Deep Learning Researcher}{Moscow, Russia}
+  \resumeItemListStart
+    \resumeItem{Research in \textbf{Generative AI for CAD} and \textbf{3D Computer Vision}.}
+    \resumeItem{Co-authored \textbf{CADENA} on stepwise CAD reverse engineering – SOTA on BenchCAD, DeepCAD,\\
+    Fusion360, MCB, and CADENA-Bench.}
+    \resumeItem{Developed the \textbf{GMS} (Generalized Match Score) metric for surface reconstruction, correspondence \\
+    estimation, and point cloud/mesh registration.}
+    \resumeItem{Joint AIRI--MSU--Sber research project; close collaboration with researchers and engineers.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {ISP RAS (Russian Academy of Sciences)}{Sep 2024 -- Sep 2025}
+  {Junior Computer Vision Research Scientist}{Moscow, Russia}
+  \resumeItemListStart
+    \resumeItem{R\&D in Computer Vision with a focus on \textbf{Video Copy Detection}.}
+    \resumeItem{Published and presented research ``Shazam Algorithm for Partial Video Copy Detection'' at IVMEM 2025.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Fast Food Memes (tg@ffmemesbot)}{Jan 2024 -- Aug 2024}
+  {Machine Learning Engineer}{Remote}
+  \resumeItemListStart 
+    \resumeItem{Built \textbf{top-ranked} infinite personalized meme feed for open-source Telegram bot (\href{https://github.com/ffmemes/ff-backend}{ffmemes/ff-backend}).}
+    \resumeItem{Processed \textbf{500k+ memes} with OCR in \textbf{10} languages (\textbf{500/1600/2500} DAU/WAU/MAU, \textbf{30k+} daily); flagged \textbf{14k+} spam.}
+    \resumeItem{Co-authored 2nd most popular open-source OCR model on mystic.ai (uriel/easyocr-r).}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Bauman Racing Team ("Formula Student" Team)}{Nov 2022 -- Oct 2023}
+  {MLOps Engineer}{Moscow, Russia}
+  \resumeItemListStart
+    \resumeItem{Created CLI tool to manage docker containers/volumes for driverless car system}
+    \resumeItem{Developed unit testing system for C++ code from scratch}
+    \resumeItem{Built CI/CD pipelines from scratch in JetBrains Space \& locally}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section*{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Skolkovo Institute of Science and Technology (Skoltech)}{Sep 2026 -- Aug 2028}
+    {Master's in Artificial Intelligence and Machine Learning}{Moscow, Russia}
+
+  \resumeSubheading
+    {Bauman Moscow State Technical University}{Sep 2022 -- Aug 2026}
+    {Bachelor's in Mathematics and Computer Science}{Moscow, Russia}
+    \resumeItemListStart
+      \resumeItem{\textit{GPA: 4.2/5}}
+      \resumeItem{\textit{Thesis:} Partial video copy detection using audio-fingerprinting-inspired algorithms (published at IVMEM 2025).}
+      \resumeItem{\textit{Academic Projects:} Built the \textbf{official final exam generator} for the Department of Theoretical Mechanics (FS3), serving 170+ students each semester and still in active use.}
+      \resumeItem{\textit{Leadership:} \textbf{Founded and led} one of the largest teams (20+ members) in the \textbf{BMSTU Math Olympiad Club}, organizing training sessions and competing in 10+ inter-university olympiads.}
+      \resumeItem{\textit{Extracurriculars:} PEBW (Proficient English in Business World program), Chess.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section*{Publications}
+\begin{itemize}[leftmargin=0.15in]
+  \item \small{Kabisov, S., et al. (incl.\ \textbf{Uzdenov, R.}). ``CADENA: Stepwise CAD Reverse Engineering.'' \textit{arXiv preprint} arXiv:2608.00799, 2026. \href{https://arxiv.org/pdf/2608.00799}{[Paper]}}
+  \item \small{\textbf{Uzdenov, R.\,Sh.}, Perminov, A.\,I. ``Shazam Algorithm for Partial Video Copy Detection.'' \textit{Proceedings of ISP RAS}, 2025. \href{https://ispranproceedings.elpub.ru/jour/article/view/2077}{[Paper]}}
+\end{itemize}
+
+%-----------SKILLS-----------
+\section*{Skills}
+\begin{itemize}[leftmargin=0.5cm, label={}]
+  \item \textbf{Programming Languages:} Python, SQL, C++, Bash
+  \item \textbf{ML/DL Stack:} PyTorch, Transformers, OpenCV, Open3D, Trimesh, PEFT, TRL, vLLM, NumPy, Pandas, Matplotlib, Scikit-learn
+  \item \textbf{Tools \& Platforms:} Docker, Git \& GitHub, LaTeX, Comet, Airflow/Prefect
+  \item \textbf{Techniques:} World Models / JEPA, Reinforcement learning, model evaluation
+  \item \textbf{Languages:} English (Full professional proficiency), Russian (Native)
+\end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section*{Certifications}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \awardItem{\textbf{YSDA x Sirius} Intensive on reproducing modern scientific results}{Oct 2026}
+  \awardItem{\textbf{Higher School of Economics} Winter School in Computer Science with \textbf{HSE Faculty of CS} (\href{https://www.linkedin.com/in/superustam/overlay/Certifications/1393739222/treasury/?profileId=ACoAADvobuIBpfb9SlRUgZGiOhCe_4OtbvHIomk}{Credential})}{Feb 2026}
+  \awardItem{\textbf{Yandex} StudCamp on \textbf{CV \& Autonomous Transport} with \textbf{Faculty of CS HSE} (\href{https://education.yandex.ru/profile/docs?id=a3fe1bfd-01b2-42af-90b8-6c7a87c431ef}{Credential})}{Oct 2025}
+  \awardItem{\textbf{Yandex} StudCamp on \textbf{NLP} with Novosibirsk State University (NSU) (\href{https://education.yandex.ru/profile/docs?id=8bc78ae0-00c9-4d0b-b39c-3423d470dd3a}{Credential})}{Jul 2025}
+  \awardItem{\textbf{Yandex} Lyceum 2-year program (\href{https://www.linkedin.com/in/superustam/}{Credential})}{Apr 2021}
+\end{itemize}
+
+
+%-----------HONORS \& AWARDS-----------
+\section*{Honors \& Awards}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \awardItem{Ya.Profi Olympiad by Yandex (the largest in Russia for university students)}{}
+  \awardItem{Winner [top 0.88\% among 200k participants] in the "Math Modeling" category}{May 2026}
+  \awardItem{RUDN Math Olymp – 3rd degree diploma (both individual and team)}{Dec 2023, Dec 2024}
+  \awardItem{BMSTU Math Olympiad – 2nd place among 2nd-year students}{Nov 2023}
+  \awardItem{Formula Student Russia (Class EV \& DV)}{Aug 2023}
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section*{Projects}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Optimizing GraphRAG for Enhanced RAG Pipelines}{Jul 2025}
+    {Team project at Yandex StudCamp on NLP \& NSU}{On-site}
+    \resumeItem{Optimized GraphRAG via \textbf{LoRA fine-tuning on Qwen3-4B} for Russian NER/RE; integrated into open-source \href{https://github.com/AsphodelRem/RAGU}{RAGU}.}
+\resumeSubHeadingListEnd
+\end{document}
